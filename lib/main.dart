@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           colorScheme: darkColorScheme,
           textTheme: textTheme,
         ),
-        themeMode: ThemeMode.light,
+        themeMode: ThemeMode.dark,
         home: const Countries(),
       ),
     );
