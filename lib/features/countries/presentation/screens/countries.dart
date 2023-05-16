@@ -6,7 +6,6 @@ import 'package:provider/provider.dart';
 import 'package:repository_pattern/core/templates/layout.dart';
 import 'package:repository_pattern/features/countries/data/repository/countries_repository.dart';
 import 'package:repository_pattern/features/countries/domain/model/country.dart';
-import 'package:repository_pattern/features/countries/presentation/components/get_countries_button.dart';
 
 class Countries extends StatefulWidget {
   const Countries({super.key});
