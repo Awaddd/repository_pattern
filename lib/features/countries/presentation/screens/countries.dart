@@ -32,7 +32,10 @@ class _CountriesState extends State<Countries> {
                   final country = snapshot.data![index];
 
                   return ListTile(
-                    title: Text(country.name),
+                    title: Text(
+                      country.name,
+                      style: Theme.of(context).textTheme.bodyLarge,
+                    ),
                   );
                 },
               ),
